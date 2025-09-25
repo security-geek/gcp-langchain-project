@@ -1,6 +1,8 @@
 # GCP LangChain AI Project
 
-This repository demonstrates an end-to-end AI pipeline using **Vertex AI**, **BigQuery**, and **LangChain** for embedding PDFs, storing embeddings, and querying them interactively.  
+This repository demonstrates an end-to-end AI pipeline using **Vertex AI**, **BigQuery**, and **LangChain** for embedding PDFs, storing embeddings, and querying them interactively. 
+
+Sample embeddings is provided in this file - raw_embeddings.json
 
 ---
 
