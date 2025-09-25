@@ -7,7 +7,7 @@ This repository demonstrates an end-to-end AI pipeline using **Vertex AI**, **Bi
 ## **Files**
 
 ### 1. `qa_vertexai.py`
-- Takes a PDF file already in **BigQuery**.
+- Takes a PDF file already in **GCPBucket**.
 - Allows a user to ask questions interactively.
 - Retrieves the top-k relevant chunks using in-memory embeddings.
 
@@ -60,8 +60,8 @@ This repository demonstrates an end-to-end AI pipeline using **Vertex AI**, **Bi
 3. Run the scripts:  
 
 ```bash
-python3 qa_vertexai_bigquery.py   # compute & store embeddings
-python3 qa_vertexai1.py           # create embeddings JSON
+python3 qa_vertexai_bigquery.py   # compute & store embeddings along with Interactive Q&A
+python3 qa_vertexai1.py           # create embeddings JSON locally and Interactive Q&A
 python3 qa_vertexai.py            # interactive Q&A
 
 Notes
