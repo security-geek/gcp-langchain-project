@@ -13,7 +13,7 @@ from vertexai.generative_models import GenerativeModel
 PROJECT_ID = os.environ.get("PROJECT_ID") or os.environ.get("GOOGLE_CLOUD_PROJECT")
 REGION = os.environ.get("REGION") or os.environ.get("GOOGLE_CLOUD_LOCATION") or "us-central1"
 BUCKET = "my-gemini-docs"              
-PDF_FILES = ["AU_Customer_Records.pdf"]  
+PDF_FILES = ["xoxoxoxox.pdf"]  
 EMBEDDING_MODEL = "text-embedding-004"  
 GEN_MODEL = "gemini-2.5-flash-lite"     
 CHUNK_SIZE = 1000
